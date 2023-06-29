@@ -77,7 +77,7 @@ I successfully coped with work: if I had free time, I helped colleagues with tas
 
 * Baltic State Technical University "Voenmeh" named after D. F. Ustinov (Information systems, bachelor)
 
-##### Courses
+#### Courses
 
 * Stepik. JavaScript for begginers 
 
@@ -87,7 +87,7 @@ I successfully coped with work: if I had free time, I helped colleagues with tas
 
 ---
 
-###Languages
+### Languages
 
 * English: B1
 
