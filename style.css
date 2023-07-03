@@ -11,7 +11,7 @@ nav {
     text-decoration: none;
 }
 
-.sidebar {
+aside {
     background-color: #f5f5f5;
     align-items: center;
     float: left;
@@ -19,7 +19,14 @@ nav {
     padding-top: 0px;
     margin-top: 0px;
     margin-left: 150px;
+	text-align: center;
   }
+
+  .aside-text {
+    margin-left: 500px;
+    margin-right: 350px;
+    text-align: center;
+}
 
 .round {
     margin-left: 25%;
@@ -37,7 +44,7 @@ nav {
     width: 1200;
     font-size: small;
     text-align: center;
-    background-color: #d4d4d4;
+    background-color: #f5f5f5;
     margin-left: 150px;
     margin-right: 150px;
   }
