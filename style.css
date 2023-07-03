@@ -19,13 +19,14 @@ header {
 	width: 44%;
 	background-color: #e7c9bb;
 	border-radius: 0 10px 0 0;
+	float: right;
 }
 
 aside {
     background-color: #e7c9bb;
     align-items: center;
 	line-height: 1.5;
-	display: block;
+	float: left;
 	
 	/*display:flex;
 	overflow: hidden;
@@ -68,16 +69,6 @@ nav {
 	display: block;
 	height: 100%;
 	margin: 3% 12%;
-	 /*box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
-    
- 
-    font-family: 'Raleway', sans-serif; 
-	/* display: flex;
-    vertical-align: middle;
-    display:inline;
-	
-    margin-left: auto;
-    margin-right: auto;*/
 } 
 
 .round {
@@ -87,6 +78,14 @@ nav {
     border-radius: 100px;
 	border: 3px solid #f1f1f1;
   }
+
+#inner-header {
+	display: block;
+}
+
+#inner-aside {
+	display: block;
+}
 
   .mini-pic {
     width: 18px;
