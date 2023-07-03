@@ -1,7 +1,28 @@
-.header {
-	top:20px;
-}
+body {
+    background-color: #e2cfc1;
+    font-family: 'Raleway', sans-serif;
+  }
 
-.main {
-	padding-top:100px;
-}
+  .footer-cv {
+    width: 1200;
+    font-size: small;
+    text-align: center;
+    background-color: #d4d4d4;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .footer-pic-github {
+    padding-left: 150px;
+  }
+
+  .footer-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: auto;
+
+  }
+
+  .footer-pic-rs {
+    padding-right: 150px;
+  }
