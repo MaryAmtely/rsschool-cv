@@ -3,6 +3,26 @@ body {
     font-family: 'Raleway', sans-serif;
   }
 
+
+nav {
+    width: 1200px;
+    height: auto;
+    background-color: #f5f5f5;
+    text-decoration: none;
+}
+
+.round {
+    margin-left: 25%;
+    width: 170px;
+    height: 195px;
+    border-radius: 100px;
+  }
+
+  .mini-pic {
+    width: 18px;
+    height: 18px;
+  }
+
   .footer-cv {
     width: 1200;
     font-size: small;
