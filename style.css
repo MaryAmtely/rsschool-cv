@@ -3,6 +3,12 @@ body {
     font-family: 'Raleway', sans-serif;
   }
 
+header {
+	margin-left: 500px;
+    margin-right: 350px;
+	font-size: large;
+	text-align: center;
+}
 
 nav {
     width: 1200px;
@@ -19,13 +25,11 @@ aside {
     padding-top: 0px;
     margin-top: 0px;
     margin-left: 150px;
-	text-align: center;
   }
 
   .aside-text {
     margin-left: 500px;
     margin-right: 350px;
-    text-align: center;
 }
 
 .round {
