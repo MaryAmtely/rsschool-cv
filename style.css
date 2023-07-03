@@ -7,12 +7,12 @@ body {
   }
 
 header {
-	margin: 0 12%;
+	margin: 0 11% 0 13%;
 	padding: 1.5%;
+	width: 74%;
 	font-size: large;
 	text-align: center;
 	float: right;
-	width: 74%;
 	background-color: #e7c9bb;
 	border-radius: 0 10px 0 0;
 }
@@ -22,7 +22,6 @@ aside {
     align-items: center;
 	line-height: 1.5;
 	float: left;
-	border-radius: 10px 0 0 10px;
 	margin: 0 3% 0 12%;
 	padding: 1.5% 1%;
 	width: 30%;
@@ -40,7 +39,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 }
 
 #hyperlink {
@@ -59,7 +58,6 @@ nav {
 } 
 
 .round {
-    margin-left: 25%;
     width: 170px;
     height: 195px;
     border-radius: 100px;
@@ -77,13 +75,11 @@ nav {
 
   .white-part {
     width: 44%;
-    margin-left: 35%;
-    margin-right: 12%;
 	background-color: #fdfdfd;
 	height: 100%;
 	margin: 0 12% 0 44%;
 	padding: 1.5%;
-	border-radius: 0 0 0 10px;
+	border-radius: 0 0 10px 0;
   }
 
   /*.header-aside {
