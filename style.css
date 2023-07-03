@@ -1,30 +1,39 @@
 body {
-    background-color: #e2cfc1;
+    background-color: #f1f1f1;
     font-family: 'Raleway', sans-serif;
   }
 
 header {
-	margin-left: 500px;
-    margin-right: 350px;
+	margin: 0 12%;
+	padding: 1.5%;
 	font-size: large;
 	text-align: center;
+	width: 76%;
+	background-color: #e7c9bb;
 }
 
 nav {
-    width: 1200px;
+    width: 77%;
     height: auto;
-    background-color: #f5f5f5;
+    background-color: #fdfdfd;
     text-decoration: none;
+	margin: 2% 12% 0 12%;
+	padding: 1.5% 1%;
+	display: flex;
+	justify-content: space-around;
 }
 
 aside {
-    background-color: #f5f5f5;
+    background-color: #fdfdfd;
     align-items: center;
     float: left;
-    width: 350px;
+  /*  width: 350px;
     padding-top: 0px;
-    margin-top: 0px;
-    margin-left: 150px;
+  /*  margin-top: 0px;
+    margin-left: 150px;*/
+	margin: 0 3% 0 13%;
+	padding: 1.5% 1%;
+	width: 30%;
   }
 
   .aside-text {
@@ -32,11 +41,23 @@ aside {
     margin-right: 350px;
 }
 
+/*.wrapper {
+    font-family: 'Raleway', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    display:inline;
+	box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 .round {
     margin-left: 25%;
     width: 170px;
     height: 195px;
     border-radius: 100px;
+	border: 3px solid #e7c9bb;
   }
 
   .mini-pic {
@@ -44,11 +65,17 @@ aside {
     height: 18px;
   }
 
+  .white-part {
+    width: 46%;
+    margin-left: 35%;
+    margin-right: 12%;
+  }
+
   .footer-cv {
     width: 1200;
     font-size: small;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #e7c9bb;
     margin-left: 150px;
     margin-right: 150px;
   }
