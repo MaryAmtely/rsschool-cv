@@ -11,6 +11,16 @@ nav {
     text-decoration: none;
 }
 
+.sidebar {
+    background-color: #f5f5f5;
+    align-items: center;
+    float: left;
+    width: 350px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+
 .round {
     margin-left: 25%;
     width: 170px;
