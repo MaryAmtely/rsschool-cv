@@ -19,55 +19,58 @@
       <a href="#work experience" id="hyperlink">Work experience</a>
       <a href="#code example" id="hyperlink">Code examples</a>
   </nav>
-  <header>
-    <h1>Mariia Ageeva</h1>
-    <h2>Junior Web Developer</h2>
-    <hr>
-  </header>
-  <aside>
-    <img class="round" src="https://i.ibb.co/4jmPm8D/photo-of-Mariia.png" alt="photo-of-Mariia">
-    <p class="side" id="contacts"><h2>Contacts</h2></p>
-    <table>
-      <tr>
-          <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/icons8/windows-8/256/Mobile-Phone-icon.png"></td>
-          <td>+37066042231</td>
-      </tr>
-      <tr>
-          <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/256/Email-3-icon.png"></td>
-          <td>maryamtely@gmail.com</td>
-      </tr>
-      <tr>
-          <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/256/github-icon.png"></td>
-          <td>https://github.com/MaryAmtely</td>
-      </tr>
-      <tr>
-          <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/256/Bootstrap-discord-icon.png"></td>
-          <td>@maryamtely</td>
-      </tr>
-      <tr>
-          <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/ionic/ionicons/256/location-icon.png"></td>
-          <td>Kaunas, Lithuania</td>
-      </tr>
-  </table>
-  <p class="side" id="skills"><h2>Skills</h2></p>
-  <ul>
-      <li>JavaScript</li>
-      <li>HTML5</li>
-      <li>CCS3</li>
-      <li>C, C++ (basic)</li>
-      <li>Git</li>
-      <li>T-Flex</li>
-      <li>Microsoft Office programms: Word, Excel, PowerPoint</li>
-      <li>Graphic Editors: Photoshop, CorelDraw</li>
-      <li>Code Editors: Visual Studio Code, Brackets, JSRun, CodeBlocks</li>
-  </ul>
-  <p class="side" id="languages"><h2>Languages</h2></p>
-  <ul>
-      <li>English: B1+</li>
-      <li>German: A1</li>
-      <li>Russian (native)</li>
-  </ul>
-  </aside>
+  <div id="header_plus_aside">
+    <header id="name_photo">
+      <h1>Mariia Ageeva</h1>
+      <h2>Junior Web Developer</h2>
+      <hr>
+    </header>
+    <aside id="name_photo">
+      <img class="round" src="https://i.ibb.co/4jmPm8D/photo-of-Mariia.png" alt="photo-of-Mariia">
+      <p class="side" id="contacts"><h2>Contacts</h2></p>
+      <table>
+        <tr>
+            <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/icons8/windows-8/256/Mobile-Phone-icon.png"></td>
+            <td>+37066042231</td>
+        </tr>
+        <tr>
+            <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/256/Email-3-icon.png"></td>
+            <td>maryamtely@gmail.com</td>
+        </tr>
+        <tr>
+            <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/256/github-icon.png"></td>
+            <td>https://github.com/MaryAmtely</td>
+        </tr>
+        <tr>
+            <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/256/Bootstrap-discord-icon.png"></td>
+            <td>@maryamtely</td>
+        </tr>
+        <tr>
+            <td><img class="mini-pic" src="https://icons.iconarchive.com/icons/ionic/ionicons/256/location-icon.png"></td>
+            <td>Kaunas, Lithuania</td>
+        </tr>
+    </table>
+    <p class="side" id="skills"><h2>Skills</h2></p>
+    <ul>
+        <li>JavaScript</li>
+        <li>HTML5</li>
+        <li>CCS3</li>
+        <li>C, C++ (basic)</li>
+        <li>Git</li>
+        <li>T-Flex</li>
+        <li>Microsoft Office programms: Word, Excel, PowerPoint</li>
+        <li>Graphic Editors: Photoshop, CorelDraw</li>
+        <li>Code Editors: Visual Studio Code, Brackets, JSRun, CodeBlocks</li>
+    </ul>
+    <p class="side" id="languages"><h2>Languages</h2></p>
+    <ul>
+        <li>English: B1+</li>
+        <li>German: A1</li>
+        <li>Russian (native)</li>
+    </ul>
+    </aside>
+  </div>
+  
   <main class="white-part">
     <article> 
      <section>
@@ -103,8 +106,9 @@
                 var x = 0;
                 var date1 = new Date (a);
                 var date2 = new Date (b);
-                var days = ["Sunday","Monday","Tuesday",
-                    "Wednesday","Thursday","Friday","Saturday"];
+                var days = ["Sunday","Monday",
+                    "Tuesday","Wednesday","Thursday",
+                    "Friday","Saturday"];
                 if (date1 > date2) 
                 {
                     var i = 0;
